@@ -19,9 +19,7 @@
   },
   "homepage": "https://github.com/sacharias/markdown-post#readme",
   "dependencies": {
-    "cleanse-html": "0.0.5",
     "react": "^15.1.0",
-    "react-contenteditable": "^1.1.0",
     "react-dom": "^15.1.0",
     "react-router": "^2.4.1",
     "react-textarea-autosize": "^4.0.2",
