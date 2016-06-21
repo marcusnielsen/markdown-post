@@ -1,0 +1,42 @@
+{
+  "name": "markdown-post",
+  "version": "1.0.0",
+  "description": "A markdown web app",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sacharias/markdown-post.git"
+  },
+  "author": "Sacharias Sjöqvist (sacharias.sjoqvist@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sacharias/markdown-post/issues"
+  },
+  "homepage": "https://github.com/sacharias/markdown-post#readme",
+  "dependencies": {
+    "cleanse-html": "0.0.5",
+    "react": "^15.1.0",
+    "react-contenteditable": "^1.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1",
+    "react-textarea-autosize": "^4.0.2",
+    "remarkable": "^1.6.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.21.0",
+    "image-webpack-loader": "^1.8.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
+
+* {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 14px;
+  outline: none;
+  line-height: 1.6em;
+  color: #333;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 48px;
+  line-height: 1.4;
+}
+
+.navbar-brand {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.change, .image-button {
+  background: #ccc;
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  font-size: 12px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 400;
+}
+.change {
+  width: 100px;
+}
+.change:hover, .image-button:hover {
+  background: #5B44FA;
+  cursor: pointer;
+}
+
+.background-image {
+  height: 400px;
+  margin-top: 30px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.edit-area {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-family: 'Roboto mono';
+}
+.logo {
+  width: 60px;
+  margin-top: 4px;
+}
+.navbar-default {
+  background: white;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+input {
+  width: 400px;
+  height: 34px;
+  margin: 0;
+  margin-right: -10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
