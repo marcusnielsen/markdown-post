@@ -1,6 +1,5 @@
 var React = require('react');
 var Textarea = require('react-textarea-autosize').default;
-var ContentEditable = require("react-contenteditable").default;
 
   var Edit = React.createClass({
     handleTextChange: function(evt){

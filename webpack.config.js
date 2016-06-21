@@ -25,5 +25,7 @@ module.exports = {
     }
     ]
   },
-  plugins: [HtmlWebpackPluginConfig]
+  plugins: [
+    HtmlWebpackPluginConfig
+  ]
 };
